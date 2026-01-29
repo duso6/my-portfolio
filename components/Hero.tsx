@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
         <div className="relative group">
           <div className="relative z-10 rounded-[3rem] overflow-hidden border-2 border-slate-800 transform rotate-2 group-hover:rotate-0 transition-transform duration-700 shadow-2xl">
             <img 
-              src="/dums.jpg.jpg"
+              src="/my-portfolio/dums.jpg.jpg"
               alt="My Profile"
               className="w-full h-auto object-cover opacity-90 group-hover:opacity-100 transition-opacity grayscale hover:grayscale-0 duration-700"
             />

@@ -15,7 +15,7 @@ const MobileAppCard: React.FC<MobileAppCardProps> = ({
   description,
   imageSrc, // 2. Receive the image variable here
   tags,
-  features,
+  features = [],
 }) => {
   return (
     <div className="flex flex-col lg:flex-row items-center gap-10 p-10 bg-[#111827] rounded-3xl border border-[#1f2937]">
@@ -46,7 +46,7 @@ const MobileAppCard: React.FC<MobileAppCardProps> = ({
         <p className="text-gray-400 text-lg mb-8">{description}</p>
 {/* Features Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-6 mb-8">
-        {features.map((feature, i) => (
+        {features?.map((feature, i) => (
           <div key={i} className="flex items-center gap-3 group">
             <div className="text-emerald-400 bg-emerald-500/10 p-1.5 rounded-full group-hover:bg-emerald-500/20 transition-colors">
               <svg 

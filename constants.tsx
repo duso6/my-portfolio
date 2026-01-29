@@ -64,7 +64,7 @@ export const MOBILE_APPS = [
       "Engagement Streaks"
     ],
     techStack: ["Flutter", "Firebase", "MongoDB", "Riverpod", "OAuth 2.0"],
-    image: "/gym.png.png", // Make sure you have an image named gym.png or gym.jpg in your public folder
+    image: "/my-portfolio/gym.png.png", // Make sure you have an image named gym.png or gym.jpg in your public folder
     projectUrl: "#"
   },
   {
@@ -79,7 +79,7 @@ export const MOBILE_APPS = [
       "Real-time Logistics"
     ],
     techStack: ["Flutter", "Node.js", "Firebase", "Stripe SDK", "AWS S3"],
-    image: "/checkout.png.png", // Update this filename to match your actual image
+    image: "/my-portfolio/checkout.png.png", // Update this filename to match your actual image
     projectUrl: "#"
   },
   {
@@ -94,7 +94,7 @@ export const MOBILE_APPS = [
       "Live Attendance Logs"
     ],
     techStack: ["Flutter", "Dart", "Provider", "NFC Manager", "SQLite"],
-    image: "/nfc.jpeg.jpeg", // Update this filename to match your actual image
+    image: "/my-portfolio/nfc.jpeg.jpeg", // Update this filename to match your actual image
     projectUrl: "#"
   }
 ];
